@@ -271,7 +271,7 @@ class JogoForca {
     ctx.textAlign = "left"
 
     // Desenha o número de tentativas restantes no canto superior esquerdo
-    ctx.fillText(`Tentativas: ${this.tentativasRestantes}`, 10, 30)
+    ctx.fillText(`Tentativas: ${this.tentativasRestantes}`, 40, 30)
   }
   verificarDerrota() {
     if (this.tentativasRestantes <= 0) {
