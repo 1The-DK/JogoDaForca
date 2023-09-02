@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: rgb(52, 179, 136);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.desenho {
+  height: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  padding-top: 8px;
+  font-size: 14px;
+}
+
+.teclado {
+  height: 40px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.key {
+  width: 4%;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.key:hover {
+  background: rgb(142, 238, 166);
+}
+
+#mensagem {
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#botaozin {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+#botaozin button{
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .2s ease-in-out; 
+}
+
+#botaozin button:hover{
+  background: rgba(255, 255, 255, 0.616);
+  
+}
+
+
+@media screen and (max-width: 480px) {
+  .key {
+  width: 7%;
+}
+}
